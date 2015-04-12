@@ -1,12 +1,12 @@
 Package.describe({
-  name: "gildaspk:moment-languages",
-  summary: "Languages files for Moment.js. See http://momentjs.com.",
-  version: "2.9.0",
-  git: "https://github.com/djhi/meteor-moment-languages.git",
+  name: "pfafman:moment-languages",
+  summary: "Some Languages files for Moment.js. See http://momentjs.com.",
+  version: "2.11.0",
+  git: "https://github.com/pfafman/meteor-moment-languages.git",
 });
 
 Package.on_use(function (api, where) {
-  api.use('momentjs:moment@2.9.0');
+  api.use('momentjs:moment');
 
   api.addFiles('server.js','server');
   api.addFiles('client.js','client');
