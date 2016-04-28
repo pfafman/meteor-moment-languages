@@ -1,7 +1,7 @@
 Package.describe({
   name: "pfafman:moment-languages",
   summary: "Some Languages files for Moment.js. See http://momentjs.com.",
-  version: "2.11.1",
+  version: "2.11.1_1",
   git: "https://github.com/pfafman/meteor-moment-languages.git",
 });
 
