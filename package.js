@@ -1,12 +1,15 @@
 Package.describe({
   name: "pfafman:moment-languages",
   summary: "Some Languages files for Moment.js. See http://momentjs.com.",
-  version: "2.11.1_3",
+  version: "2.11.1_4",
   git: "https://github.com/pfafman/meteor-moment-languages.git",
 });
 
 Package.on_use(function (api, where) {
-  api.use('momentjs:moment');
+  api.versionsFrom("1.4.1");
+  //api.use('momentjs:moment');
+  
+  api.use(['tmeasday:check-npm-versions@0.3.1', 'ecmascript'],['client', 'server']);
 
   api.addFiles('server.js','server');
   api.addFiles('client.js','client');

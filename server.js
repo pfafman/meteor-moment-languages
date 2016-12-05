@@ -1,1 +1,1 @@
-global.moment = moment;
+//global.moment = moment;

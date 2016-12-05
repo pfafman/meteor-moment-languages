@@ -1,2 +1,2 @@
-global = this;
-global.moment = moment;
+// global = this;
+// global.moment = moment;
